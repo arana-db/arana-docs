@@ -1,10 +1,17 @@
 # Configuration file for the Sphinx documentation builder.
 
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+source_suffix = ['.rst', '.md']
+
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Arana'
+copyright = '2023, AranaDB'
+author = 'Jeffsky'
 
 release = '0.1'
 version = '0.1.0'
