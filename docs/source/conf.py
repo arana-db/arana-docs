@@ -1,17 +1,10 @@
 # Configuration file for the Sphinx documentation builder.
 
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-source_suffix = ['.rst', '.md']
-
 # -- Project information
 
 project = 'Arana'
 copyright = '2023, AranaDB'
-author = 'Jeffsky'
+author = 'The Arana Team'
 
 release = '0.1'
 version = '0.1.0'
@@ -24,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser',
 ]
 
 intersphinx_mapping = {
