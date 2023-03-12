@@ -5,6 +5,7 @@
 TODO: 整理常见的arana错误码
 
 | 错误码 | 说明 |
+|----|----|
 | ARANA-XXXX | bla bal bla |
 
 ## 日志格式
