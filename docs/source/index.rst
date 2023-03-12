@@ -22,3 +22,4 @@ Contents
    overview
    quickstart
    feature
+   faq
